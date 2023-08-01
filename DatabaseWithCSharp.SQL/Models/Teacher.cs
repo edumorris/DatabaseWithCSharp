@@ -22,5 +22,5 @@ public class Teacher
     [ForeignKey("SchoolId")] 
     public Guid SchoolId { get; set; }
 
-    public virtual School School;
+    public School School;
 }
